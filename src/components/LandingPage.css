@@ -1,0 +1,14 @@
+
+.align-left {
+    text-align: left;
+}
+
+thead {
+    justify-content: space-between;
+}
+
+table {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
