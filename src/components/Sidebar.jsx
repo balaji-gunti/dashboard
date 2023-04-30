@@ -17,15 +17,15 @@ const Sidebar = () => {
             marginTop: "-100px",
             width: "200px",
             backgroundColor: "white",
-            borderRadius: "10px"
+            borderRadius: "10px",
           }}
         >
-          <Box marginTop="20px">
-            <Box marginBottom="40px" sx={{cursor: "pointer"}}>
-              <ArrowBackIcon  />
+          <Stack marginTop="20px">
+            <Box marginBottom="40px" sx={{ cursor: "pointer" }}>
+              <ArrowBackIcon />
               <img style={{ marginLeft: "10px" }} src={Logo} alt="Logo" />
             </Box>
-            <Stack direction="column" >
+            <Stack direction="column">
               {categories.map((category) => (
                 <span
                   className="category-btn"
@@ -47,7 +47,7 @@ const Sidebar = () => {
                 </span>
               ))}
             </Stack>
-          </Box>
+          </Stack>
         </Stack>
 
         {/* <Stack>

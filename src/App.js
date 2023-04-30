@@ -6,7 +6,7 @@ function App() {
       <img
         src={HeroImage}
         alt="HeroBackgroundImage"
-        style={{ width: "100vw" }}
+        style={{ width: "100%" }}
       />
       <Landingpage />
     </>

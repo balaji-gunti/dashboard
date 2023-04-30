@@ -10,7 +10,7 @@ const Landingpage = () => {
     <Stack direction="row"  > 
         <Sidebar />
        <Box sx={{margin: "35px", width:"100vw"}}>
-                <Box  direction="row" sx={{display: "flex", justifyContent:"space-between", marginBottom: "30px"}} >
+                <Box  direction="row" sx={{display: "flex", justifyContent:"space-between", marginBottom: "30px", flexDirection: {md: "row"} }} >
                     <h1>Recurring Invoices</h1>
                     <Button variant="outlined" sx={{ width: "262px",  height:"63px",  borderRadius: "5px", backgroundColor: "black"}} >
                         <Typography variant="button" >
